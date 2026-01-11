@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2026-01-11
 
 ### Added
+
 - Initial release of telegram-network-diagnostics
 - Quick connectivity check command (`check`)
 - Continuous network monitoring command (`monitor`)
@@ -25,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MIT License
 
 ### Features
+
 - 🚀 Three operational modes: check, monitor, full
 - 📊 Detailed statistics and histograms
 - ⚡ Parallel request testing
@@ -34,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📝 Extensive logging and error reporting
 
 ### Dependencies
+
 - Python 3.8+
 - aiohttp >= 3.9.0
 - Pillow >= 10.0.0 (optional, for file upload tests)

@@ -135,6 +135,7 @@ telegram-diag full       # токен и chat_id из config.py
 ## Сохранение результатов
 
 Все результаты автоматически сохраняются:
+
 - Monitor: `telegram_monitor_YYYYMMDD_HHMMSS.log`
 - Full: `telegram_network_diagnostics_YYYYMMDD_HHMMSS.log`
 
@@ -162,6 +163,7 @@ pip install -e .
 ### CommandNotFound: telegram-diag
 
 Убедитесь что виртуальное окружение активировано или используйте полный путь:
+
 ```bash
 .venv/Scripts/telegram-diag.exe  # Windows
 .venv/bin/telegram-diag  # Linux/Mac
@@ -170,6 +172,7 @@ pip install -e .
 ### Проблемы с Pillow
 
 Тесты загрузки файлов требуют Pillow:
+
 ```bash
 pip install Pillow
 ```
